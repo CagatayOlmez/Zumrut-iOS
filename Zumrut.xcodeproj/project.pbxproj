@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C0C75CD1037A7B7AEDC35F /* PremiumLockedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B906824495C9317FDDF145 /* PremiumLockedView.swift */; };
+		03C941AAA9C76F0895CB0A9A /* NextPrayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED52D6A3CB404EE01B9F4E9 /* NextPrayer.swift */; };
+		04E9E338DA733D8E7276215A /* RehberService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F1EDFBC473BFFDFCA1AA68 /* RehberService.swift */; };
+		0583672AD99A7EFD38A82CD6 /* DualarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EDFEC8F98CE75078F2EF77 /* DualarView.swift */; };
+		0ADC5561FBB754052E4F6DF7 /* WordMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096324D5D5E5438251955E3A /* WordMatcher.swift */; };
+		0B3EF3E5017DDD464D84118E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C904981E8F20D6407AA107E /* OnboardingView.swift */; };
+		0DBE32B747E8CBFE7C16FDBB /* QiblaMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA42E004ABEB75801567C0F /* QiblaMathTests.swift */; };
+		103BC91D4AF3547C11ABD0B5 /* MosqueFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49AD9540D691407F88CF66C /* MosqueFinderView.swift */; };
+		1121529656B236EB48B43388 /* MosqueFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23654396178512ABC7C9189 /* MosqueFinder.swift */; };
+		1A64A425A6F9F4CAD292FB3A /* QiblaMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5AA48FD0A0928CC64837EC /* QiblaMath.swift */; };
+		264454325066AAF55AF5B872 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED05D1C45174175BD7EA01 /* HomeView.swift */; };
+		26A85A8D0CBB25CF7223707E /* KurumsalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7408B37E5BF3C797595705 /* KurumsalView.swift */; };
+		2EA30673E853E051AD74E1F1 /* PrayerTutorialSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED5C4101C8B839C787CAB13 /* PrayerTutorialSteps.swift */; };
+		309A53759600610F1BDFFF2E /* DuaAudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2368DAA4CA50B14F483624B /* DuaAudioService.swift */; };
+		3C9E8450C8938E4798948539 /* RehberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C683E62AE4159356932B3D6 /* RehberView.swift */; };
+		466420B7545A0B729098092C /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F50A73735C7EC6432A44724 /* NotificationService.swift */; };
+		4957FCC4AD545F82018B6960 /* TakipHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0DF3781146CE4FAE3BF260 /* TakipHubView.swift */; };
+		4CCAC4981AD35B28A4CD31A8 /* DuaLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFB53336EF41D9A88186626 /* DuaLibrary.swift */; };
+		5128D313DCF3CA94CB2E6989 /* PrayerTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65C589F2FF961E8BC4C69E8 /* PrayerTutorialView.swift */; };
+		5558477F5B4B154B492D9A85 /* ContentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A754C5C6B1A1E2CBCE8ADDEB /* ContentStore.swift */; };
+		5728B41BDC55EF4621268FD8 /* OrucView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB42A08E2D1A30E98AB98C5 /* OrucView.swift */; };
+		5D3D668AB2B4F95AF1412A85 /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA71C117E0E12489A4C1E2 /* ContentService.swift */; };
+		611E13B1CFEA8023168EC316 /* ContentServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4AF1117C0E1C4E7901BA89 /* ContentServiceTests.swift */; };
+		6A3CA3D47312845F04C27665 /* PrayerStreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4324F804F4541F7A126E57E /* PrayerStreakTests.swift */; };
+		6A469FA63B7DB18F66FFAFC7 /* DonationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1EB35E3F576870CAFB4AF0 /* DonationsView.swift */; };
+		6A4C30AE43F3584D5FED31E7 /* ZikirView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AE09E0BBA2F46DE7C0DCC5 /* ZikirView.swift */; };
+		6D0612F6D8D22EF0046FCFFF /* PrayerTimesCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4DB47BCD6F0A71B52A72BF /* PrayerTimesCacheTests.swift */; };
+		7078A85C07B79FAAEF6F03FD /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8989B813EA19ADA63C9C69A9 /* StoreManager.swift */; };
+		73AA56E263898580FF0D8E4D /* PosturePictogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F2B107F58982776163C46 /* PosturePictogram.swift */; };
+		85A91E5969F56AA5FA7495D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7035603641CB3A1BC5B349D1 /* Assets.xcassets */; };
+		882A50B9C645FD22632C1504 /* ZakatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC42BD2B4197BBB206316AB7 /* ZakatView.swift */; };
+		8C1C12ADAF9B563BC5C520EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8DFECC846EAFB9D5D1009A /* Foundation.framework */; };
+		8DE8F94DF420CD1A25CB80EB /* ZakatServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AC87C6C3A68B606ACC2592 /* ZakatServiceTests.swift */; };
+		91C8A34B7A0B388A06A8F2B3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93377E6587CE4106AEB1B477 /* SettingsView.swift */; };
+		9F131B1D7356B3CA3A4234EF /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C462CC71F6A05EFC7FDD8BA /* InfoCardView.swift */; };
+		A09AB240519BBC4D9B29685A /* CompassProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C05CBC62571BD8E28B25FEC /* CompassProvider.swift */; };
+		A154A8F4C44AF34D07D66C8B /* QuranModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A3173B21F2FAC86C1A6920 /* QuranModels.swift */; };
+		A62C885DAE4DA58E0B02CE7A /* PrayerTimesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019CB2C24BF63896C7BF70DD /* PrayerTimesService.swift */; };
+		AA5E97EE0E954E29804E3F30 /* ZakatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D51AD13267718D04B5BBB /* ZakatService.swift */; };
+		B1934112BD6A578FE0078EBE /* FitreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748535CDC4E5586E61D70C33 /* FitreView.swift */; };
+		BD09DA0FC8AD72E9319857FD /* ZumrutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C8DD234ECEC6731C5C8E1D /* ZumrutApp.swift */; };
+		BD1D82A6A72B95966C190255 /* QuranService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7D6FA3CC200AC21E85BD4 /* QuranService.swift */; };
+		C65199188BC9E31EF4B135DD /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B15798A50090D63E180617 /* Models.swift */; };
+		C829756ECA0F9171BF113FE8 /* InfoCardLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BDD540DDDADB5F3ED1DC30 /* InfoCardLibrary.swift */; };
+		CBDFA7363F532E94CF3352AB /* PrayerStreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CF6683F50E4F27FCBB17E9 /* PrayerStreak.swift */; };
+		CC52DC937529F6409235726C /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4921F409AF5FB950788D1262 /* PremiumView.swift */; };
+		CE2B68A4D1AF7AF55A22994B /* EtkinliklerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8756D059AB239622FEC4321 /* EtkinliklerView.swift */; };
+		D1EE1AD4BACF31DD5DE65F9A /* QiblaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9AB1BC403342547749D3E /* QiblaView.swift */; };
+		D471E98D7F688BD556450718 /* SurahListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874F67C40DF95C4145E11710 /* SurahListView.swift */; };
+		D90578BB713A9A954EBDDCD8 /* SupabaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066D527CD157DF8DC20400EC /* SupabaseConfig.swift */; };
+		DC6D228BF885E8F1F4EA6857 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC99D0889A4B49EA0A7FC82 /* RootTabView.swift */; };
+		DE77A42A4F34A8C71B475659 /* CemaatHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01EA978EB8B90E71E6C38F6 /* CemaatHubView.swift */; };
+		E17D1D9F0D9DBACF05DC957E /* HijriCalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52B39B5ACD075A07F7FFB7 /* HijriCalendarService.swift */; };
+		E63E06A84DCB57794E8B2ABB /* TranscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E26142ABFDDEB46455B772 /* TranscriptionService.swift */; };
+		E6D36075967F03149C8D2A35 /* AudioRecorderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2F12D6D0850C4C2C4E70D9 /* AudioRecorderService.swift */; };
+		EC1CEADB7C9B402B05E2F9EA /* TilavetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D73187F74999E93110F862 /* TilavetView.swift */; };
+		EC8F9A3C17C5B6D34C4468C4 /* PrayerTimeParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CC06844A1E9BADD1D86536 /* PrayerTimeParsing.swift */; };
+		F47434AEE6CB2D995899CC3A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4F6AE3DEC424957884408 /* Colors.swift */; };
+		F8D1A1B334B6A6E5FD9E803B /* SurahDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA54C9826E6867587D54378 /* SurahDetailView.swift */; };
+		FB7687458C3BE6ADC4DD6CB7 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A029ECCA5E248B911B7C0 /* LocationProvider.swift */; };
+		FE1594F846980E9A369301C8 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA1204B92CAA7F7FA01CC6 /* Typography.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E043EDDA568D5F326D7B0427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE714353DE95D722ECDE972A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30AD44F544EECDA27D13705E;
+			remoteInfo = Zumrut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019CB2C24BF63896C7BF70DD /* PrayerTimesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesService.swift; sourceTree = "<group>"; };
+		066D527CD157DF8DC20400EC /* SupabaseConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SupabaseConfig.swift; sourceTree = "<group>"; };
+		096324D5D5E5438251955E3A /* WordMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordMatcher.swift; sourceTree = "<group>"; };
+		0B2F12D6D0850C4C2C4E70D9 /* AudioRecorderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderService.swift; sourceTree = "<group>"; };
+		10CF6683F50E4F27FCBB17E9 /* PrayerStreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerStreak.swift; sourceTree = "<group>"; };
+		11B906824495C9317FDDF145 /* PremiumLockedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PremiumLockedView.swift; sourceTree = "<group>"; };
+		17FA71C117E0E12489A4C1E2 /* ContentService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentService.swift; sourceTree = "<group>"; };
+		18ED05D1C45174175BD7EA01 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2EA42E004ABEB75801567C0F /* QiblaMathTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QiblaMathTests.swift; sourceTree = "<group>"; };
+		32B15798A50090D63E180617 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		37E26142ABFDDEB46455B772 /* TranscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptionService.swift; sourceTree = "<group>"; };
+		38C8DD234ECEC6731C5C8E1D /* ZumrutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumrutApp.swift; sourceTree = "<group>"; };
+		3A52B39B5ACD075A07F7FFB7 /* HijriCalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HijriCalendarService.swift; sourceTree = "<group>"; };
+		3B8DFECC846EAFB9D5D1009A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C462CC71F6A05EFC7FDD8BA /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
+		3E01E13C7E02A1D36E84DE11 /* ZumrutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZumrutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4921F409AF5FB950788D1262 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		49BDD540DDDADB5F3ED1DC30 /* InfoCardLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardLibrary.swift; sourceTree = "<group>"; };
+		4DA7D6FA3CC200AC21E85BD4 /* QuranService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranService.swift; sourceTree = "<group>"; };
+		5C683E62AE4159356932B3D6 /* RehberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberView.swift; sourceTree = "<group>"; };
+		5CB42A08E2D1A30E98AB98C5 /* OrucView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrucView.swift; sourceTree = "<group>"; };
+		646CE7D7F398818491240421 /* Zumrut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zumrut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A3173B21F2FAC86C1A6920 /* QuranModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranModels.swift; sourceTree = "<group>"; };
+		6ED5C4101C8B839C787CAB13 /* PrayerTutorialSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTutorialSteps.swift; sourceTree = "<group>"; };
+		7035603641CB3A1BC5B349D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		748535CDC4E5586E61D70C33 /* FitreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitreView.swift; sourceTree = "<group>"; };
+		7F7408B37E5BF3C797595705 /* KurumsalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KurumsalView.swift; sourceTree = "<group>"; };
+		83D73187F74999E93110F862 /* TilavetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilavetView.swift; sourceTree = "<group>"; };
+		86C4F6AE3DEC424957884408 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		874F67C40DF95C4145E11710 /* SurahListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahListView.swift; sourceTree = "<group>"; };
+		87AC87C6C3A68B606ACC2592 /* ZakatServiceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ZakatServiceTests.swift; sourceTree = "<group>"; };
+		87E9AB1BC403342547749D3E /* QiblaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaView.swift; sourceTree = "<group>"; };
+		884F2B107F58982776163C46 /* PosturePictogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosturePictogram.swift; sourceTree = "<group>"; };
+		8989B813EA19ADA63C9C69A9 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		8AC99D0889A4B49EA0A7FC82 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		8C904981E8F20D6407AA107E /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		93377E6587CE4106AEB1B477 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		99EA1204B92CAA7F7FA01CC6 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		9C05CBC62571BD8E28B25FEC /* CompassProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassProvider.swift; sourceTree = "<group>"; };
+		9F50A73735C7EC6432A44724 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A754C5C6B1A1E2CBCE8ADDEB /* ContentStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentStore.swift; sourceTree = "<group>"; };
+		A9CC06844A1E9BADD1D86536 /* PrayerTimeParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeParsing.swift; sourceTree = "<group>"; };
+		A9F1EDFBC473BFFDFCA1AA68 /* RehberService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberService.swift; sourceTree = "<group>"; };
+		AFFB53336EF41D9A88186626 /* DuaLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaLibrary.swift; sourceTree = "<group>"; };
+		B4324F804F4541F7A126E57E /* PrayerStreakTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrayerStreakTests.swift; sourceTree = "<group>"; };
+		B49AD9540D691407F88CF66C /* MosqueFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueFinderView.swift; sourceTree = "<group>"; };
+		C2368DAA4CA50B14F483624B /* DuaAudioService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DuaAudioService.swift; sourceTree = "<group>"; };
+		CCA54C9826E6867587D54378 /* SurahDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahDetailView.swift; sourceTree = "<group>"; };
+		CD1EB35E3F576870CAFB4AF0 /* DonationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationsView.swift; sourceTree = "<group>"; };
+		CD5AA48FD0A0928CC64837EC /* QiblaMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaMath.swift; sourceTree = "<group>"; };
+		CF4DB47BCD6F0A71B52A72BF /* PrayerTimesCacheTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrayerTimesCacheTests.swift; sourceTree = "<group>"; };
+		D3AE09E0BBA2F46DE7C0DCC5 /* ZikirView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZikirView.swift; sourceTree = "<group>"; };
+		D7EDFEC8F98CE75078F2EF77 /* DualarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualarView.swift; sourceTree = "<group>"; };
+		DB0DF3781146CE4FAE3BF260 /* TakipHubView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TakipHubView.swift; sourceTree = "<group>"; };
+		E65C589F2FF961E8BC4C69E8 /* PrayerTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTutorialView.swift; sourceTree = "<group>"; };
+		EC1D51AD13267718D04B5BBB /* ZakatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakatService.swift; sourceTree = "<group>"; };
+		EC42BD2B4197BBB206316AB7 /* ZakatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakatView.swift; sourceTree = "<group>"; };
+		EC4A029ECCA5E248B911B7C0 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		EF4AF1117C0E1C4E7901BA89 /* ContentServiceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentServiceTests.swift; sourceTree = "<group>"; };
+		F01EA978EB8B90E71E6C38F6 /* CemaatHubView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CemaatHubView.swift; sourceTree = "<group>"; };
+		F23654396178512ABC7C9189 /* MosqueFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MosqueFinder.swift; sourceTree = "<group>"; };
+		F8756D059AB239622FEC4321 /* EtkinliklerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtkinliklerView.swift; sourceTree = "<group>"; };
+		FED52D6A3CB404EE01B9F4E9 /* NextPrayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPrayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47165F1CE0F7AA8913A2C69E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1C12ADAF9B563BC5C520EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BAFD5873536C35C4BDD0FAD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				32B15798A50090D63E180617 /* Models.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0EBE0E849BB891CDAACDC0B5 /* Dualar */ = {
+			isa = PBXGroup;
+			children = (
+				D7EDFEC8F98CE75078F2EF77 /* DualarView.swift */,
+				AFFB53336EF41D9A88186626 /* DuaLibrary.swift */,
+			);
+			path = Dualar;
+			sourceTree = "<group>";
+		};
+		1011535F0B86A20B57AEEDFB /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+				4921F409AF5FB950788D1262 /* PremiumView.swift */,
+				8989B813EA19ADA63C9C69A9 /* StoreManager.swift */,
+				11B906824495C9317FDDF145 /* PremiumLockedView.swift */,
+			);
+			path = Premium;
+			sourceTree = "<group>";
+		};
+		12BB5E4AF6DFE29BE0F0257E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3A52B39B5ACD075A07F7FFB7 /* HijriCalendarService.swift */,
+				18ED05D1C45174175BD7EA01 /* HomeView.swift */,
+				FED52D6A3CB404EE01B9F4E9 /* NextPrayer.swift */,
+				10CF6683F50E4F27FCBB17E9 /* PrayerStreak.swift */,
+				DB0DF3781146CE4FAE3BF260 /* TakipHubView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		137E7B75DF78C3C5B89BE1EC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3B8DFECC846EAFB9D5D1009A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1716CF1AB8B3C63AA9A89DE8 /* Zikir */ = {
+			isa = PBXGroup;
+			children = (
+				D3AE09E0BBA2F46DE7C0DCC5 /* ZikirView.swift */,
+			);
+			path = Zikir;
+			sourceTree = "<group>";
+		};
+		3AB578DF0B21CDFD3BD06813 = {
+			isa = PBXGroup;
+			children = (
+				86EF352D6C6910BEE254FE7E /* Sources */,
+				614AB520DD97608AB972BC01 /* Products */,
+				5742E31919671252E203E7AC /* Frameworks */,
+				6C52ACC1DFA9EDCBA85EC4C9 /* ZumrutTests */,
+			);
+			sourceTree = "<group>";
+		};
+		5742E31919671252E203E7AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				137E7B75DF78C3C5B89BE1EC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		614AB520DD97608AB972BC01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				646CE7D7F398818491240421 /* Zumrut.app */,
+				3E01E13C7E02A1D36E84DE11 /* ZumrutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66B5F8CBE7129C9BEFAF9E19 /* Etkinlikler */ = {
+			isa = PBXGroup;
+			children = (
+				F8756D059AB239622FEC4321 /* EtkinliklerView.swift */,
+			);
+			path = Etkinlikler;
+			sourceTree = "<group>";
+		};
+		6C52ACC1DFA9EDCBA85EC4C9 /* ZumrutTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4324F804F4541F7A126E57E /* PrayerStreakTests.swift */,
+				CF4DB47BCD6F0A71B52A72BF /* PrayerTimesCacheTests.swift */,
+				2EA42E004ABEB75801567C0F /* QiblaMathTests.swift */,
+				87AC87C6C3A68B606ACC2592 /* ZakatServiceTests.swift */,
+				EF4AF1117C0E1C4E7901BA89 /* ContentServiceTests.swift */,
+			);
+			path = ZumrutTests;
+			sourceTree = "<group>";
+		};
+		706862C893B1EE72F1653B5B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8C904981E8F20D6407AA107E /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		832C2AFF7DB4CC32120E1086 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				86C4F6AE3DEC424957884408 /* Colors.swift */,
+				99EA1204B92CAA7F7FA01CC6 /* Typography.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		86EF352D6C6910BEE254FE7E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C0DA10BAD6685D2C5259BB2A /* AI */,
+				D133F3B969B4EFBC768F994B /* App */,
+				9F8C7C611490DD1912126D6D /* Camii */,
+				0BAFD5873536C35C4BDD0FAD /* Data */,
+				0EBE0E849BB891CDAACDC0B5 /* Dualar */,
+				66B5F8CBE7129C9BEFAF9E19 /* Etkinlikler */,
+				B5DDB2A61FFBD80CDE857A98 /* Finans */,
+				CAFB9AFAB8DEA30AA2C069CA /* InfoCard */,
+				8876BD882FEEF4E8BFA882FE /* Kurumsal */,
+				F5C2E58E362D3877392C5028 /* Networking */,
+				EF0A085723DA98D34FD7A755 /* Oruc */,
+				1011535F0B86A20B57AEEDFB /* Premium */,
+				D0ECDACD4B6741BB1ABA60DF /* Qibla */,
+				E16CF20B96E9092D24228E58 /* Quran */,
+				E9DABC9823E4808822C169D5 /* Resources */,
+				12BB5E4AF6DFE29BE0F0257E /* Screens */,
+				C06575882DB18C7282F69483 /* Settings */,
+				832C2AFF7DB4CC32120E1086 /* Theme */,
+				FE3657EAB0D98B468D07131B /* Tutorial */,
+				1716CF1AB8B3C63AA9A89DE8 /* Zikir */,
+				706862C893B1EE72F1653B5B /* Onboarding */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8876BD882FEEF4E8BFA882FE /* Kurumsal */ = {
+			isa = PBXGroup;
+			children = (
+				7F7408B37E5BF3C797595705 /* KurumsalView.swift */,
+			);
+			path = Kurumsal;
+			sourceTree = "<group>";
+		};
+		9F8C7C611490DD1912126D6D /* Camii */ = {
+			isa = PBXGroup;
+			children = (
+				F23654396178512ABC7C9189 /* MosqueFinder.swift */,
+				B49AD9540D691407F88CF66C /* MosqueFinderView.swift */,
+			);
+			path = Camii;
+			sourceTree = "<group>";
+		};
+		B5DDB2A61FFBD80CDE857A98 /* Finans */ = {
+			isa = PBXGroup;
+			children = (
+				CD1EB35E3F576870CAFB4AF0 /* DonationsView.swift */,
+				748535CDC4E5586E61D70C33 /* FitreView.swift */,
+				EC1D51AD13267718D04B5BBB /* ZakatService.swift */,
+				EC42BD2B4197BBB206316AB7 /* ZakatView.swift */,
+			);
+			path = Finans;
+			sourceTree = "<group>";
+		};
+		C06575882DB18C7282F69483 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				93377E6587CE4106AEB1B477 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C0DA10BAD6685D2C5259BB2A /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				0B2F12D6D0850C4C2C4E70D9 /* AudioRecorderService.swift */,
+				A9F1EDFBC473BFFDFCA1AA68 /* RehberService.swift */,
+				5C683E62AE4159356932B3D6 /* RehberView.swift */,
+				83D73187F74999E93110F862 /* TilavetView.swift */,
+				37E26142ABFDDEB46455B772 /* TranscriptionService.swift */,
+				096324D5D5E5438251955E3A /* WordMatcher.swift */,
+				C2368DAA4CA50B14F483624B /* DuaAudioService.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		CAFB9AFAB8DEA30AA2C069CA /* InfoCard */ = {
+			isa = PBXGroup;
+			children = (
+				49BDD540DDDADB5F3ED1DC30 /* InfoCardLibrary.swift */,
+				3C462CC71F6A05EFC7FDD8BA /* InfoCardView.swift */,
+			);
+			path = InfoCard;
+			sourceTree = "<group>";
+		};
+		D0ECDACD4B6741BB1ABA60DF /* Qibla */ = {
+			isa = PBXGroup;
+			children = (
+				9C05CBC62571BD8E28B25FEC /* CompassProvider.swift */,
+				CD5AA48FD0A0928CC64837EC /* QiblaMath.swift */,
+				87E9AB1BC403342547749D3E /* QiblaView.swift */,
+			);
+			path = Qibla;
+			sourceTree = "<group>";
+		};
+		D133F3B969B4EFBC768F994B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8AC99D0889A4B49EA0A7FC82 /* RootTabView.swift */,
+				38C8DD234ECEC6731C5C8E1D /* ZumrutApp.swift */,
+				F01EA978EB8B90E71E6C38F6 /* CemaatHubView.swift */,
+				A754C5C6B1A1E2CBCE8ADDEB /* ContentStore.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E16CF20B96E9092D24228E58 /* Quran */ = {
+			isa = PBXGroup;
+			children = (
+				67A3173B21F2FAC86C1A6920 /* QuranModels.swift */,
+				4DA7D6FA3CC200AC21E85BD4 /* QuranService.swift */,
+				CCA54C9826E6867587D54378 /* SurahDetailView.swift */,
+				874F67C40DF95C4145E11710 /* SurahListView.swift */,
+			);
+			path = Quran;
+			sourceTree = "<group>";
+		};
+		E9DABC9823E4808822C169D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7035603641CB3A1BC5B349D1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF0A085723DA98D34FD7A755 /* Oruc */ = {
+			isa = PBXGroup;
+			children = (
+				5CB42A08E2D1A30E98AB98C5 /* OrucView.swift */,
+			);
+			path = Oruc;
+			sourceTree = "<group>";
+		};
+		F5C2E58E362D3877392C5028 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EC4A029ECCA5E248B911B7C0 /* LocationProvider.swift */,
+				9F50A73735C7EC6432A44724 /* NotificationService.swift */,
+				A9CC06844A1E9BADD1D86536 /* PrayerTimeParsing.swift */,
+				019CB2C24BF63896C7BF70DD /* PrayerTimesService.swift */,
+				066D527CD157DF8DC20400EC /* SupabaseConfig.swift */,
+				17FA71C117E0E12489A4C1E2 /* ContentService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FE3657EAB0D98B468D07131B /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				884F2B107F58982776163C46 /* PosturePictogram.swift */,
+				6ED5C4101C8B839C787CAB13 /* PrayerTutorialSteps.swift */,
+				E65C589F2FF961E8BC4C69E8 /* PrayerTutorialView.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30AD44F544EECDA27D13705E /* Zumrut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90CD8477EE1CCBFEB03D248 /* Build configuration list for PBXNativeTarget "Zumrut" */;
+			buildPhases = (
+				221E89B7B1E5AF4894ABF1A7 /* Sources */,
+				158E86C68B8E20B7B9B5A714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zumrut;
+			productName = Zumrut;
+			productReference = 646CE7D7F398818491240421 /* Zumrut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		720F8CED3A319C92126E73AD /* ZumrutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8881E9C00841381BD18D33FC /* Build configuration list for PBXNativeTarget "ZumrutTests" */;
+			buildPhases = (
+				8B3BC0CC69AC00F4925F21D4 /* Sources */,
+				47165F1CE0F7AA8913A2C69E /* Frameworks */,
+				A548A447F89CD0C9758118FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C2E3A0A8E8D0271DD51696C /* PBXTargetDependency */,
+			);
+			name = ZumrutTests;
+			productName = ZumrutTests;
+			productReference = 3E01E13C7E02A1D36E84DE11 /* ZumrutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE714353DE95D722ECDE972A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					30AD44F544EECDA27D13705E = {
+						DevelopmentTeam = LNJ7YSV327;
+						ProvisioningStyle = Automatic;
+					};
+					720F8CED3A319C92126E73AD = {
+						TestTargetID = 30AD44F544EECDA27D13705E;
+					};
+				};
+			};
+			buildConfigurationList = 4837AC6A2EC9E7A1416ED481 /* Build configuration list for PBXProject "Zumrut" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 3AB578DF0B21CDFD3BD06813;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 614AB520DD97608AB972BC01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30AD44F544EECDA27D13705E /* Zumrut */,
+				720F8CED3A319C92126E73AD /* ZumrutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		158E86C68B8E20B7B9B5A714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A91E5969F56AA5FA7495D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A548A447F89CD0C9758118FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221E89B7B1E5AF4894ABF1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D36075967F03149C8D2A35 /* AudioRecorderService.swift in Sources */,
+				F47434AEE6CB2D995899CC3A /* Colors.swift in Sources */,
+				A09AB240519BBC4D9B29685A /* CompassProvider.swift in Sources */,
+				6A469FA63B7DB18F66FFAFC7 /* DonationsView.swift in Sources */,
+				4CCAC4981AD35B28A4CD31A8 /* DuaLibrary.swift in Sources */,
+				0583672AD99A7EFD38A82CD6 /* DualarView.swift in Sources */,
+				CE2B68A4D1AF7AF55A22994B /* EtkinliklerView.swift in Sources */,
+				B1934112BD6A578FE0078EBE /* FitreView.swift in Sources */,
+				E17D1D9F0D9DBACF05DC957E /* HijriCalendarService.swift in Sources */,
+				264454325066AAF55AF5B872 /* HomeView.swift in Sources */,
+				C829756ECA0F9171BF113FE8 /* InfoCardLibrary.swift in Sources */,
+				9F131B1D7356B3CA3A4234EF /* InfoCardView.swift in Sources */,
+				26A85A8D0CBB25CF7223707E /* KurumsalView.swift in Sources */,
+				FB7687458C3BE6ADC4DD6CB7 /* LocationProvider.swift in Sources */,
+				C65199188BC9E31EF4B135DD /* Models.swift in Sources */,
+				1121529656B236EB48B43388 /* MosqueFinder.swift in Sources */,
+				103BC91D4AF3547C11ABD0B5 /* MosqueFinderView.swift in Sources */,
+				03C941AAA9C76F0895CB0A9A /* NextPrayer.swift in Sources */,
+				466420B7545A0B729098092C /* NotificationService.swift in Sources */,
+				5728B41BDC55EF4621268FD8 /* OrucView.swift in Sources */,
+				73AA56E263898580FF0D8E4D /* PosturePictogram.swift in Sources */,
+				CBDFA7363F532E94CF3352AB /* PrayerStreak.swift in Sources */,
+				EC8F9A3C17C5B6D34C4468C4 /* PrayerTimeParsing.swift in Sources */,
+				A62C885DAE4DA58E0B02CE7A /* PrayerTimesService.swift in Sources */,
+				2EA30673E853E051AD74E1F1 /* PrayerTutorialSteps.swift in Sources */,
+				5128D313DCF3CA94CB2E6989 /* PrayerTutorialView.swift in Sources */,
+				CC52DC937529F6409235726C /* PremiumView.swift in Sources */,
+				1A64A425A6F9F4CAD292FB3A /* QiblaMath.swift in Sources */,
+				D1EE1AD4BACF31DD5DE65F9A /* QiblaView.swift in Sources */,
+				A154A8F4C44AF34D07D66C8B /* QuranModels.swift in Sources */,
+				BD1D82A6A72B95966C190255 /* QuranService.swift in Sources */,
+				04E9E338DA733D8E7276215A /* RehberService.swift in Sources */,
+				3C9E8450C8938E4798948539 /* RehberView.swift in Sources */,
+				DC6D228BF885E8F1F4EA6857 /* RootTabView.swift in Sources */,
+				91C8A34B7A0B388A06A8F2B3 /* SettingsView.swift in Sources */,
+				7078A85C07B79FAAEF6F03FD /* StoreManager.swift in Sources */,
+				F8D1A1B334B6A6E5FD9E803B /* SurahDetailView.swift in Sources */,
+				D471E98D7F688BD556450718 /* SurahListView.swift in Sources */,
+				EC1CEADB7C9B402B05E2F9EA /* TilavetView.swift in Sources */,
+				E63E06A84DCB57794E8B2ABB /* TranscriptionService.swift in Sources */,
+				FE1594F846980E9A369301C8 /* Typography.swift in Sources */,
+				0ADC5561FBB754052E4F6DF7 /* WordMatcher.swift in Sources */,
+				AA5E97EE0E954E29804E3F30 /* ZakatService.swift in Sources */,
+				882A50B9C645FD22632C1504 /* ZakatView.swift in Sources */,
+				6A4C30AE43F3584D5FED31E7 /* ZikirView.swift in Sources */,
+				BD09DA0FC8AD72E9319857FD /* ZumrutApp.swift in Sources */,
+				02C0C75CD1037A7B7AEDC35F /* PremiumLockedView.swift in Sources */,
+				4957FCC4AD545F82018B6960 /* TakipHubView.swift in Sources */,
+				DE77A42A4F34A8C71B475659 /* CemaatHubView.swift in Sources */,
+				0B3EF3E5017DDD464D84118E /* OnboardingView.swift in Sources */,
+				D90578BB713A9A954EBDDCD8 /* SupabaseConfig.swift in Sources */,
+				5D3D668AB2B4F95AF1412A85 /* ContentService.swift in Sources */,
+				5558477F5B4B154B492D9A85 /* ContentStore.swift in Sources */,
+				309A53759600610F1BDFFF2E /* DuaAudioService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3BC0CC69AC00F4925F21D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3CA3D47312845F04C27665 /* PrayerStreakTests.swift in Sources */,
+				6D0612F6D8D22EF0046FCFFF /* PrayerTimesCacheTests.swift in Sources */,
+				0DBE32B747E8CBFE7C16FDBB /* QiblaMathTests.swift in Sources */,
+				8DE8F94DF420CD1A25CB80EB /* ZakatServiceTests.swift in Sources */,
+				611E13B1CFEA8023168EC316 /* ContentServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C2E3A0A8E8D0271DD51696C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Zumrut;
+			target = 30AD44F544EECDA27D13705E /* Zumrut */;
+			targetProxy = E043EDDA568D5F326D7B0427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		291BBF50C25ECE1BF4E47BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LNJ7YSV327;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zümrüt";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Zümrüt, size en yakın namaz vakitlerini ve kıble yönünü gösterebilmek için konumunuzu kullanır.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Zümrüt, tilavetinizi dinleyip kelime kontrolü yapabilmek için mikrofonu kullanır.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagatayolmez.Zumrut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		65188EE106276AA208D47C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagatayolmez.Zumrut.ZumrutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zumrut.app/Zumrut";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FBB901F7A8FA794B35D4B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagatayolmez.Zumrut.ZumrutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zumrut.app/Zumrut";
+			};
+			name = Debug;
+		};
+		A9363BEF0BE494CD5A039A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3749EA7D899974D48A1BA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LNJ7YSV327;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zümrüt";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Zümrüt, size en yakın namaz vakitlerini ve kıble yönünü gösterebilmek için konumunuzu kullanır.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Zümrüt, tilavetinizi dinleyip kelime kontrolü yapabilmek için mikrofonu kullanır.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagatayolmez.Zumrut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9D5DF3C8487D992740EDBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4837AC6A2EC9E7A1416ED481 /* Build configuration list for PBXProject "Zumrut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9363BEF0BE494CD5A039A2D /* Debug */,
+				E9D5DF3C8487D992740EDBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8881E9C00841381BD18D33FC /* Build configuration list for PBXNativeTarget "ZumrutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65188EE106276AA208D47C52 /* Release */,
+				6FBB901F7A8FA794B35D4B11 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90CD8477EE1CCBFEB03D248 /* Build configuration list for PBXNativeTarget "Zumrut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3749EA7D899974D48A1BA73 /* Debug */,
+				291BBF50C25ECE1BF4E47BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE714353DE95D722ECDE972A /* Project object */;
+}
