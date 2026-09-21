@@ -42,7 +42,11 @@ struct SurahListView: View {
             do {
                 surahs = try await QuranService.fetchSurahList()
             } catch {
-                errorMessage = "Sure listesi alınamadı. Tekrar deneyin."
+                if let cached = QuranService.cachedSurahList() {
+                    surahs = cached
+                } else {
+                    errorMessage = "Sure listesi alınamadı. İnternet bağlantınızı kontrol edip tekrar deneyin."
+                }
             }
         }
     }

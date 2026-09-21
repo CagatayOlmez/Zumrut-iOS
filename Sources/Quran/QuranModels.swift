@@ -1,6 +1,6 @@
 import Foundation
 
-struct SurahSummary: Decodable, Identifiable {
+struct SurahSummary: Codable, Identifiable, Equatable {
     let number: Int
     let name: String // Arabic
     let englishName: String
@@ -19,7 +19,7 @@ struct SurahSummary: Decodable, Identifiable {
     }
 }
 
-struct Ayah: Decodable, Identifiable {
+struct Ayah: Codable, Identifiable, Equatable {
     let number: Int
     let text: String
     let numberInSurah: Int
@@ -27,7 +27,7 @@ struct Ayah: Decodable, Identifiable {
     var id: Int { number }
 }
 
-struct SurahDetail {
+struct SurahDetail: Codable, Equatable {
     let summary: SurahSummary
     let arabicAyahs: [Ayah]
     let turkishAyahs: [Ayah]

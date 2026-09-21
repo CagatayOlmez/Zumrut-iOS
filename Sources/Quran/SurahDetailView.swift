@@ -24,7 +24,11 @@ struct SurahDetailView: View {
             do {
                 detail = try await QuranService.fetchSurah(number: surahNumber)
             } catch {
-                errorMessage = "Sure alınamadı. Tekrar deneyin."
+                if let cached = QuranService.cachedSurah(number: surahNumber) {
+                    detail = cached
+                } else {
+                    errorMessage = "Sure alınamadı. İnternet bağlantınızı kontrol edip tekrar deneyin."
+                }
             }
         }
     }

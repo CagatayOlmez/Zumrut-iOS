@@ -5,11 +5,24 @@ import "@supabase/functions-js/edge-runtime.d.ts";
 import { withSupabase } from "@supabase/server";
 
 const MODEL = "gpt-4o-mini-transcribe";
+// Per-IP cap — same reasoning as chat/index.ts.
+const RATE_LIMIT = 20;
+const RATE_WINDOW_SECONDS = 60 * 60;
 
 export default {
-  fetch: withSupabase({ auth: ["publishable", "secret"] }, async (req) => {
+  fetch: withSupabase({ auth: ["publishable", "secret"] }, async (req, ctx) => {
     if (req.method !== "POST") {
       return Response.json({ error: "POST bekleniyor." }, { status: 405 });
+    }
+
+    const ip = req.headers.get("x-forwarded-for")?.split(",")[0].trim() ?? "unknown";
+    const { data: allowed, error: rateLimitError } = await ctx.supabaseAdmin.rpc("check_rate_limit", {
+      p_key: `transcribe:${ip}`,
+      p_limit: RATE_LIMIT,
+      p_window_seconds: RATE_WINDOW_SECONDS,
+    });
+    if (!rateLimitError && allowed === false) {
+      return Response.json({ error: "Çok fazla istek gönderildi. Lütfen bir süre sonra tekrar deneyin." }, { status: 429 });
     }
 
     const apiKey = Deno.env.get("OPENAI_API_KEY");

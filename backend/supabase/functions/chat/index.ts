@@ -12,6 +12,10 @@ const SYSTEM_PROMPT = `Sen Zümrüt uygulamasının İslami rehber asistanısın
 4. Türkçe, kısa, saygılı ve sıcak bir üslupla cevap ver.`;
 
 const MODEL = "gpt-5.6-terra";
+// Per-IP cap — a real user has no reason to send more than this many
+// Rehber messages in an hour; a leaked/extracted key running in a loop does.
+const RATE_LIMIT = 20;
+const RATE_WINDOW_SECONDS = 60 * 60;
 
 interface ChatTurn {
   role: string;
@@ -19,9 +23,19 @@ interface ChatTurn {
 }
 
 export default {
-  fetch: withSupabase({ auth: ["publishable", "secret"] }, async (req) => {
+  fetch: withSupabase({ auth: ["publishable", "secret"] }, async (req, ctx) => {
     if (req.method !== "POST") {
       return Response.json({ error: "POST bekleniyor." }, { status: 405 });
+    }
+
+    const ip = req.headers.get("x-forwarded-for")?.split(",")[0].trim() ?? "unknown";
+    const { data: allowed, error: rateLimitError } = await ctx.supabaseAdmin.rpc("check_rate_limit", {
+      p_key: `chat:${ip}`,
+      p_limit: RATE_LIMIT,
+      p_window_seconds: RATE_WINDOW_SECONDS,
+    });
+    if (!rateLimitError && allowed === false) {
+      return Response.json({ error: "Çok fazla istek gönderildi. Lütfen bir süre sonra tekrar deneyin." }, { status: 429 });
     }
 
     const apiKey = Deno.env.get("OPENAI_API_KEY");

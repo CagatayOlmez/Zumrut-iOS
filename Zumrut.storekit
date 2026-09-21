@@ -1,0 +1,113 @@
+{
+  "identifier" : "9B51D613-65EF-4289-838D-FB8674B74423",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "tr_TR",
+    "_storefront" : "TUR",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "5FC2438E-E840-454F-AFA7-F827D9913258",
+      "localizations" : [],
+      "name" : "Zümrüt Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "49.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "DD794331-83CE-4976-8E44-8130499C201E",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Aylık Zümrüt Premium aboneliği",
+              "displayName" : "Zümrüt Premium (Aylık)",
+              "locale" : "tr_TR"
+            }
+          ],
+          "productID" : "com.cagatayolmez.Zumrut.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium Monthly",
+          "subscriptionGroupID" : "5FC2438E-E840-454F-AFA7-F827D9913258",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : []
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "399.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "1A58A7FD-CA0F-4078-B9B6-63E0DC53AD8D",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Yıllık Zümrüt Premium aboneliği",
+              "displayName" : "Zümrüt Premium (Yıllık)",
+              "locale" : "tr_TR"
+            }
+          ],
+          "productID" : "com.cagatayolmez.Zumrut.premium.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premium Yearly",
+          "subscriptionGroupID" : "5FC2438E-E840-454F-AFA7-F827D9913258",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : []
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

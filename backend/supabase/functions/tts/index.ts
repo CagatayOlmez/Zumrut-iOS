@@ -38,6 +38,18 @@ export default {
       return Response.json({ audioUrl: publicData.publicUrl });
     }
 
+    // Only rate-limit past this point — cache hits above are free and
+    // shouldn't count against a user just replaying duas.
+    const ip = req.headers.get("x-forwarded-for")?.split(",")[0].trim() ?? "unknown";
+    const { data: allowed, error: rateLimitError } = await ctx.supabaseAdmin.rpc("check_rate_limit", {
+      p_key: `tts:${ip}`,
+      p_limit: 20,
+      p_window_seconds: 60 * 60,
+    });
+    if (!rateLimitError && allowed === false) {
+      return Response.json({ error: "Çok fazla istek gönderildi. Lütfen bir süre sonra tekrar deneyin." }, { status: 429 });
+    }
+
     const openaiResponse = await fetch("https://api.openai.com/v1/audio/speech", {
       method: "POST",
       headers: {
