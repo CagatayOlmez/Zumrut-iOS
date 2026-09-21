@@ -66,6 +66,15 @@ final class StoreManager: ObservableObject {
         }
     }
 
+    func restorePurchases() async {
+        do {
+            try await AppStore.sync()
+        } catch {
+            errorMessage = "Geri yükleme tamamlanamadı."
+        }
+        await refreshEntitlements()
+    }
+
     func refreshEntitlements() async {
         var active = false
         for await result in Transaction.currentEntitlements {

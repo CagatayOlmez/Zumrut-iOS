@@ -43,7 +43,7 @@ struct OnboardingView: View {
             }
             .padding(.horizontal, 30)
 
-            Text("Konum ve kullanım verileriniz yalnızca cihazınızda kalır, üçüncü taraflarla paylaşılmaz.")
+            Text("Namaz kayıtlarınız ve kullanım verileriniz yalnızca cihazınızda kalır. Konumunuz yalnızca namaz vakti hesaplamak için kullanılır.")
                 .font(ZumrutFont.mono(10))
                 .foregroundColor(ZumrutColors.muted)
                 .multilineTextAlignment(.center)

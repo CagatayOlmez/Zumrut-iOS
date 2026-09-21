@@ -59,7 +59,15 @@ struct PremiumView: View {
                 Text("İstediğin zaman iptal et.")
                     .font(ZumrutFont.mono(10))
                     .foregroundColor(ZumrutColors.muted)
-                    .padding(.bottom, 20)
+
+                Button {
+                    Task { await store.restorePurchases() }
+                } label: {
+                    Text("Satın Alımları Geri Yükle")
+                        .font(ZumrutFont.body(12, weight: .semibold))
+                        .foregroundColor(ZumrutColors.teal)
+                }
+                .padding(.bottom, 20)
             }
         }
         .background(ZumrutColors.paper)
