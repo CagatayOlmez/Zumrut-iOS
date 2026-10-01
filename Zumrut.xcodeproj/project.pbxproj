@@ -89,7 +89,7 @@
 		0B2F12D6D0850C4C2C4E70D9 /* AudioRecorderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderService.swift; sourceTree = "<group>"; };
 		10CF6683F50E4F27FCBB17E9 /* PrayerStreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerStreak.swift; sourceTree = "<group>"; };
 		11B906824495C9317FDDF145 /* PremiumLockedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PremiumLockedView.swift; sourceTree = "<group>"; };
-		11B93D19DF974C27480BCE9A /* Zumrut.storekit */ = {isa = PBXFileReference; includeInIndex = 1; path = Zumrut.storekit; sourceTree = "<group>"; };
+		11B93D19DF974C27480BCE9A /* Zumrut.storekit */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = Zumrut.storekit; sourceTree = "<group>"; };
 		17FA71C117E0E12489A4C1E2 /* ContentService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentService.swift; sourceTree = "<group>"; };
 		18ED05D1C45174175BD7EA01 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2EA42E004ABEB75801567C0F /* QiblaMathTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QiblaMathTests.swift; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		D3AE09E0BBA2F46DE7C0DCC5 /* ZikirView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZikirView.swift; sourceTree = "<group>"; };
 		D7EDFEC8F98CE75078F2EF77 /* DualarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualarView.swift; sourceTree = "<group>"; };
 		DB0DF3781146CE4FAE3BF260 /* TakipHubView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TakipHubView.swift; sourceTree = "<group>"; };
-		DF36EC021D838E4E3BC67DC1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DF36EC021D838E4E3BC67DC1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		E65C589F2FF961E8BC4C69E8 /* PrayerTutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTutorialView.swift; sourceTree = "<group>"; };
 		EC1D51AD13267718D04B5BBB /* ZakatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakatService.swift; sourceTree = "<group>"; };
 		EC42BD2B4197BBB206316AB7 /* ZakatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakatView.swift; sourceTree = "<group>"; };
@@ -629,6 +629,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = LNJ7YSV327;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Zümrüt";
@@ -696,6 +697,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = LNJ7YSV327;
 				ENABLE_TESTABILITY = YES;
 				GENERATE_INFOPLIST_FILE = YES;
